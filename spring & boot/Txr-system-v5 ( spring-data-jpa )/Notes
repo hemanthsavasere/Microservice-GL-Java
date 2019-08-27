@@ -1,0 +1,129 @@
+
+
+ Money Transfer System  ( domain )
+ ------------------------------------
+ 
+ 
+ model
+ ------
+ 
+ 	- Account
+ 	- Txn
+ 	
+ 	
+ Layer(s)
+ ---------
+ 
+ 	- data/repository layer   ( persisting logic )
+ 	- buisiness/service layer ( processing logic )
+ 	- web layer  with REST API( request / response logic )	
+ 	
+---------------------------------------------------- 	
+ 
+ 
+ 
+ 
+ //e.g TxrServiceImpl
+ 
+ 
+ 
+ 	design & performance issues
+ 	----------------------------
+ 	
+ 	
+ 	=> dependent-component tightly coupled with dependency-component
+ 	
+ 		-> cant' extend with fea-features easily..
+ 	
+ 	=> too many duplicate dependencies are created & discarded
+ 	
+ 		-> slow,memory/resource use high..
+ 	
+ 	=> Unit-Testing not possible
+ 	
+ 		-> dev/bug fix slow
+ 		
+    
+    
+    why these issues ?
+    
+    => dependent itself creating it's own dependency
+    
+    soln:
+    
+    => dont't create , get from factory..
+    
+    limitation on factory-lookup:
+    
+    => factory-location tight-coupled..
+    
+    best soln:
+    
+    => dont create/lookup, inject by 'management'/'third-party'  ( Inversion of Control )
+    
+    
+    how to implement IOC ?
+    
+    -> dependency injection ( DI )
+    
+    	=> constructor
+    	=> setter
+    	=> field
+    	..
+    
+    -> AOP
+    
+    
+     
+    		
+ 	-------------------------------------------------------------
+ 	OO concepts
+ 	-------------------------------------------------------------
+ 	
+ 	
+ 	=> Abstraction
+ 	=> Encapsulation
+ 	=> Inheritance
+ 	=> Polymosphism
+ 	
+    		
+ 	-------------------------------------------------------------
+ 	OO principles
+ 	-------------------------------------------------------------
+ 	
+ 	SOLID principles
+ 	
+ 	=> Single-Responsibility
+ 	=> Open & closed 
+ 	=> Liskov. substitution
+ 	=> Interface segrgation
+ 	=> Dependency inversion
+ 	
+ 	
+ 	
+ 	-------------------------------------------------------------
+ 	OO patterns
+ 	-------------------------------------------------------------
+ 	
+ 	- creational
+ 	- behavioral
+ 	- structural
+ 	
+ 	--------------------------------------------------------------
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 
+    

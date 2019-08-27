@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "gl",
+      "type": "com.example.config.GLAutoConfiguration",
+      "sourceType": "com.example.config.GLAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gl.feature-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.config.GLAutoConfiguration"
+    },
+    {
+      "name": "gl.some-property",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.GLAutoConfiguration"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,40 @@
+
+
+
+java language programming style
+---------------------------------
+
+
+  ==> 'component' & 'container/framework' style
+  
+  
+  
+  		- component(s) ==> appl'n logic
+  		- container/framework ==> infra logic
+  		
+  		
+  		we should describe( configuration ) components to container/framework
+  		 		
+  		 		
+     1st-gen : XML		
+  	 2nd-gen : Anno    ( from JDK 1.5 )	
+  	 
+  	 
+  	 what is annotation ?
+  	 
+  	 ==> a meta-data to  annotate/describe java programming elements 
+  	    to other program  ( compiler, java-runtime, container, framework .. )
+  	    
+  	    
+  	    
+  		
+  		
+  		
+  		
+  		
+  		
+  		
+  		
+  		
+  		
+  		

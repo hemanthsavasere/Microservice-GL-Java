@@ -1,0 +1,11 @@
+
+
+
+server:
+  port: 8183
+  
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://user1:user123@ds237196.mlab.com:37196/eat-db  

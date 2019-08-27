@@ -1,0 +1,19 @@
+
+
+
+How spring-boot works ?
+--------------------------
+
+
+
+  @EnableAutoConfiguration
+  
+  which reads '/META-INF/spring.factories' files in project's class-path,
+  on positive match, 
+  which includes configuration(s) with current context
+  
+  
+  	
+
+
+

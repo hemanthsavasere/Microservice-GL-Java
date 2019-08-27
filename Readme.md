@@ -1,1 +1,1 @@
-# Java Microservices Training in GL
+# micro-in-GL
